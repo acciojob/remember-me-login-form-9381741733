@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const username = usernameInput.value;
         const password = passwordInput.value;
 
-        alert(Logged in as ${username});
+        alert(`Logged in as ${username}`);
 
         if (checkbox.checked) {
             localStorage.setItem("username", username);
